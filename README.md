@@ -1,6 +1,6 @@
 # ALX Backend Security: IP Tracking
 
-What's up, bro! This is a Django project for the ALX Backend Security course. We're tracking IPs, blocking the bad guys, and doing some cool analytics.
+This is a Django project for the ALX Backend Security course. We're tracking IPs, blocking the bad guys, and doing some cool analytics.
 
 ## Features
 
@@ -24,7 +24,6 @@ What's up, bro! This is a Django project for the ALX Backend Security course. We
     source venv/bin/activate
     pip install -r requirements.txt
     ```
-    *(Note: You'll need to create a `requirements.txt` file. I'll do that for you.)*
 
 3.  **Run migrations**:
     ```bash
@@ -59,5 +58,3 @@ celery -A alx_backend_security beat -l info
   ```
 - The rate limiting is applied to the `/ip/login/` and `/ip/protected/` endpoints.
 - Suspicious IPs are flagged automatically by the Celery task.
-
-That's it, bro! Now go and be a security legend.
