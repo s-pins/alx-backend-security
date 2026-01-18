@@ -149,3 +149,5 @@ CACHES = {
         'LOCATION': 'unique-snowflake',
     }
 }
+
+STATIC_ROOT = BASE_DIR / 'staticfiles'
