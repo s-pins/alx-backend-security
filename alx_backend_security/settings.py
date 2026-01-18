@@ -40,6 +40,7 @@ INSTALLED_APPS = [
     'ip_tracking',
     'rest_framework',
     'drf_yasg',
+    'django_ratelimit',
 ]
 
 MIDDLEWARE = [
